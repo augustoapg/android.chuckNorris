@@ -1,3 +1,15 @@
+/**
+ * Project: Midterm Exam
+ * Author: Augusto A P Goncalez
+ * Date: Oct. 07, 2019
+ *
+ * Project Description:
+ * This app has an activity (APIActivity) that gets information from an API to display quotes from
+ * Chuck Norris, together with an image and the created date of that quote. Another activity
+ * called memeGenerator allows the user to click a button to take a picture, which will then show
+ * in an ImageView in the Activity.
+ */
+
 package sheridan.araujope.midtermexam;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         mMemesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, APIActivity.class);
+                Intent intent = new Intent(MainActivity.this, memeGenerator.class);
                 startActivity(intent);
             }
         });

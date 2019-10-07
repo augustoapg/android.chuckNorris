@@ -1,3 +1,15 @@
+/**
+ * Project: Midterm Exam
+ * Author: Augusto A P Goncalez
+ * Date: Oct. 07, 2019
+ *
+ * Project Description:
+ * This app has an activity (APIActivity) that gets information from an API to display quotes from
+ * Chuck Norris, together with an image and the created date of that quote. Another activity
+ * called memeGenerator allows the user to click a button to take a picture, which will then show
+ * in an ImageView in the Activity.
+ */
+
 package sheridan.araujope.midtermexam;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -85,10 +97,10 @@ public class APIActivity extends AppCompatActivity {
 
                             // NOTE: I am getting the imageUrl from the JSON, but I was not able to
                             // display the image based on the URL
-//                            URL url = new URL(imageUrl);
-//                            Bitmap bmp = BitmapFactory.decodeStream(url.openConnection()
-//                                    .getInputStream());
-//                            mImgChuckNorris.setImageBitmap(bmp);
+                            URL url = new URL(imageUrl);
+                            Bitmap bmp = BitmapFactory.decodeStream(url.openConnection()
+                                    .getInputStream());
+                            mImgChuckNorris.setImageBitmap(bmp);
 
                             mQuote.setText(quote);
                             mCreatedAt.setText(createdAt);

@@ -7,4 +7,5 @@
     <string name="lblCategory">Category</string>
     <string name="httphost">https://api.chucknorris.io/jokes/random?category=</string>
     <string name="categoryToast">Please select a category</string>
+    <string name="btnClickImage">Select Image</string>
 </resources>

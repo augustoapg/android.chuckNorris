@@ -21,12 +21,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40sp"
-        android:text="@string/btnQuotes" />
+        android:text="@string/btnQuotes"
+        android:textSize="@dimen/lblDefaultSize" />
 
     <Button
         android:id="@+id/btnMakeMemes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnMakeMemes" />
+        android:layout_marginTop="20sp"
+        android:text="@string/btnMakeMemes"
+        android:textSize="@dimen/lblDefaultSize" />
 
 </LinearLayout>
