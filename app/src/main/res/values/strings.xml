@@ -5,4 +5,6 @@
     <string name="btnMakeMemes">Make Memes</string>
     <string name="btnGenerate">Generate</string>
     <string name="lblCategory">Category</string>
+    <string name="httphost">https://api.chucknorris.io/jokes/random?category=</string>
+    <string name="categoryToast">Please select a category</string>
 </resources>
