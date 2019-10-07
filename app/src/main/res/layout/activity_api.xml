@@ -12,7 +12,6 @@
         android:id="@+id/imgChuckNorris"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@tools:sample/avatars[2]"
         tools:srcCompat="@tools:sample/avatars[2]" />
 
     <TextView
