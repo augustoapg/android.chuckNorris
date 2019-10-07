@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Midterm Exam</string>
     <string name="lblTitle">The Legends of Chuck Norris</string>
+    <string name="btnQuotes">True Quotes</string>
+    <string name="btnMakeMemes">Make Memes</string>
+    <string name="btnGenerate">Generate</string>
+    <string name="lblCategory">Category</string>
 </resources>

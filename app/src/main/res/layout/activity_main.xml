@@ -11,19 +11,22 @@
         android:id="@+id/lblTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
         android:text="@string/lblTitle"
+        android:textAlignment="center"
         android:textSize="@dimen/title" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnQuotes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_marginTop="40sp"
+        android:text="@string/btnQuotes" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnMakeMemes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/btnMakeMemes" />
 
 </LinearLayout>
